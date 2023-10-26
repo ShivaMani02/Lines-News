@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_datas",
+  "info": {
+    "singularName": "news-data",
+    "pluralName": "news-datas",
+    "displayName": "News Data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "newsCategory": {
+      "type": "enumeration",
+      "enum": [
+        "sports",
+        "entertainment",
+        "political",
+        "business",
+        "health",
+        "technology",
+        "travel",
+        "education",
+        "science"
+      ]
+    },
+    "hashtags": {
+      "type": "string"
+    }
+  }
+}
